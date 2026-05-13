@@ -1,10 +1,7 @@
 cd Docker
 
 nano app.py
-
-print("Hello Docker")
-
+print("Hello")
 
 
-0
 
