@@ -5,8 +5,8 @@ FROM python:3.9-slim
 WORKDIR /app
 
 #copy files
-COPY app.py .
+COPY . /app
 
 #run python script
-CMD ["python","app.py"]
+CMD ("python","app.py")
 
