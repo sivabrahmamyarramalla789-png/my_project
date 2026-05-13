@@ -1,7 +1,0 @@
-nano app.py
-print("hello,docker! my first python app inside a container")
-
-nano Dockerfile
-FROM python:3.10
-COPY app.py
-CMD["python","app.py"]
